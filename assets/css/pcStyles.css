@@ -1,0 +1,51 @@
+.mobileNavBar{
+    display: none;
+}
+.pcNavBar{
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+}
+.pcNavBar-container{
+    width: 50%;
+    max-width: 500px;
+    margin-right: 48px;
+    display: flex;
+    justify-content: space-around;
+    font-size: var(--text-size-normal);
+    font-weight: 500;
+}
+.pcNavBar-container a:hover{
+    color: var(--primary-color);  
+}
+.hero-container{
+    max-width: 1600px;
+}
+.hero-desc{
+    width: 60%;
+}
+/* about section */
+.about-container{
+    flex-direction: row;
+}
+.about-photo{ 
+    top: -120px;
+}
+.topics-container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.podcasts{
+    padding: 256px 0;
+}
+/* Footer */
+footer{
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 128px ;
+}
